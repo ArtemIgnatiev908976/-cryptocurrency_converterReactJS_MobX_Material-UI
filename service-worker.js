@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cryptocurrency_converter_ReactJS_MobX_Material-UI/crypto-converter/precache-manifest.90b1613968e635d33f947fbc1f195f3c.js"
+  "/cryptocurrency_converter_ReactJS_MobX_Material-UI/precache-manifest.9cacef8ef8d515061453ea8b34c2b6c4.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/cryptocurrency_converter_ReactJS_MobX_Material-UI/crypto-converter/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/cryptocurrency_converter_ReactJS_MobX_Material-UI/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
